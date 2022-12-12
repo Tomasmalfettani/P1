@@ -1,0 +1,273 @@
+* { 
+    margin: 0%;
+    padding: 0;
+} 
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+header {
+/*     background-color: #E5E3E3; */
+/*     background-color: #F7F7F7; */
+    background-color: white;
+}
+
+
+
+@media screen and (max-width:500px) {
+
+    #containerPalabras {
+        display: none;
+    }
+
+    #containerIconos {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:767px) and (min-width:501px) { 
+
+    #containerPalabras {
+        display: none;
+    }
+
+    #containerIconos2 {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width:768px) { 
+
+    #containerIconos {
+        display: none;
+    }
+
+    #containerIconos2 {
+        display: none;
+    }
+
+}
+
+.titulo500 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.letraVerde {
+/*     color: #1D8348; */
+/*     color: #4aefdf; */
+    color: #018673;
+}
+
+.letraBlanca {
+    color: white;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #018673;
+}
+
+.sticky {
+    position: sticky; 
+    z-index: 3;
+    top: 0px;
+}
+
+:root {
+    --green: #018673;
+}
+  
+.lineaVerde {
+    display: inline-block;
+    position: relative;
+}
+  
+.lineaVerde:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--green);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+  
+.lineaVerde:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.textoPrimero {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.fondoGris {
+    background-color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fixed {
+    position: fixed; 
+    bottom: 50px;
+    right: 50px;
+    width: 5px;
+    height: 5px;
+    z-index: 2; 
+}
+
+.centrarTexto {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Esto deberia de hacerlo con JS (Addeventlistener) y que cuando pase por la imagen - titulo - texto la imagen se exapnda */
+
+.transicionImagenes {
+    transition: all 1s; 
+}
+
+.transicionImagenes:hover {
+    width: 200px;
+}
+
+.fondoGrisLetras {
+    color: #018673;
+    font-weight: bold;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.fondoVerde {
+    background-color: #018673;
+}
+
+footer {
+    padding: 10%;
+    color: #018673;
+    
+}
+
+footer a:hover {
+    color: #018673;
+}
+
+.bordeArribaFooter {
+    border-top: 1px solid #018673 ;
+}
+
+footer a {
+    text-decoration: none;
+    color: #018673;
+}
+
+/* NOSOTROS CSS */
+
+.tituloPrimero {
+    text-transform: uppercase;
+    color: #018673;
+    font-weight: 900;
+    font-size: 9rem;
+}
+
+@media screen and (max-width:840px) { 
+
+    .tituloPrimero {
+        font-size: 8rem;
+    }
+
+}
+
+@media screen and (max-width:770px) { 
+
+    .tituloPrimero {
+        font-size: 7rem;
+    }
+
+}
+
+@media screen and (max-width:680px) { 
+
+    .tituloPrimero {
+        font-size: 6rem;
+    }
+
+}
+
+@media screen and (max-width:600px) { 
+
+    .tituloPrimero {
+        font-size: 5rem;
+    }
+
+}
+
+@media screen and (max-width:500px) { 
+
+    .tituloPrimero {
+        font-size: 4rem;
+    }
+
+}
+
+@media screen and (max-width:400px) { 
+
+    .tituloPrimero {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width:300px) { 
+
+    .tituloPrimero {
+        font-size: 2rem;
+    }
+
+}
+
+.textosNosotros p {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.textosNosotros ul li {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
