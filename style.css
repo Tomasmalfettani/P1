@@ -206,7 +206,7 @@ footer a {
     font-size: 9rem;
 }
 
-@media screen and (max-width:840px) { 
+@media screen and (max-width:845px) { 
 
     .tituloPrimero {
         font-size: 8rem;
