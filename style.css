@@ -39,6 +39,10 @@ header {
         display: none;
     }
 
+    #fotoServicios1 {
+        display: none;
+    }
+
 
 }
 
@@ -132,8 +136,6 @@ header {
 
 .fondoGris {
     background-color: #F7F7F7;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .fixed {
@@ -275,3 +277,31 @@ footer a {
 
 /* SERVICIOS CSS */
 
+.button{
+    display: inline-block;
+    color: #018673;
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 3px solid 
+    #018673;
+    border-radius: 10px;
+}
+
+.button:hover{
+    animation: pulsate 1s 
+    ease-in-out;
+    color: #018673;
+}
+
+@keyframes pulsate {
+
+    0%{
+        box-shadow: 
+        0 0 25px #4aefdf,
+        0 0 50px #4aefdf;
+    }
+}
+
+.textoCentrado {
+    text-align: center;
+}
