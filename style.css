@@ -5,9 +5,12 @@
 
 html {
     scroll-behavior: smooth;
+    cursor: default;
 }
 
-
+html a:hover {
+    cursor: pointer;
+}
 
 header {
 /*     background-color: #E5E3E3; */
